@@ -6,17 +6,29 @@ class product:
      self.quantity = quantity 
 
 def add_stock(self, amount):
-    return quantity + 1
+    self.amount = amount
+    return amount + 1
     
 
 def remove_stock(self, amount):
 
-    if quantity == -1
-    print("Unavailable, stock cannot be negative")
+    if amount == -1:
+        print("Unavailable, stock cannot be negative")
 
    
        
-def get_total_value(self, price, quantity):            
-    value = quantity * price
+def get_total_value(self, price, amount):            
+    value = amount * price
     return value      
-                    
+
+def restock(self, product_id, amount):
+    self.product_id = product_id
+    if amount == 0:
+        print("Out of stock, please restock")     
+
+def display_all(self, product_id, name, price, amount):
+    print("Product ID: ", product_id)
+    print("Name: ", name)
+    print("Price: ", price)
+    print("Amount: ", amount)     
+            
