@@ -1,5 +1,5 @@
 class product: 
-    def __init__(self, product_id, name, price, quantity)
+    def __init__(self, product_id, name, price, quantity, amount):
      self.product_id = product_id
      self.name = name
      self.price = price
@@ -11,10 +11,9 @@ def add_stock(self, amount):
     
 
 def remove_stock(self, amount):
-    if amount == -1
-    print("Unavailable, stock cannot be negative")
+    if amount == -1:
+        print("Unavailable, stock cannot be negative")
 
-   
        
 def get_total_value(self, price, amount):            
     value = amount * price
