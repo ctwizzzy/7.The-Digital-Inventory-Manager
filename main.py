@@ -41,6 +41,7 @@ def display_all(self, product_id, name, price, quantity):
 
 if __name__ == "__main__":
    print("Welcome to the Digital Inventory Manager")
+
 while True:
     print("1. Add New Product")
     print("2. View All Inventory")
