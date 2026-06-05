@@ -47,3 +47,17 @@ while True:
     print("2. View All Inventory")
     print("3. Update Product Stock (Buy/Sell)")
     print("4. Exit")
+
+    choice = input("Selet your choice")
+    if choice == 1:
+        product_id = input("Enter Product ID")
+        name = input("Enter Product name")
+        price = float(input("Enter price of product"))
+        amount = int(input("Enter amount of stock you would like to add"))
+
+    if choice == 2:
+        Inventory.display_all()
+    
+    if choice == 3:
+
+    
